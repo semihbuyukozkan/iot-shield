@@ -6,7 +6,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import networkx as nx
 
-
+'''
+METR-LA Veri seti için Keşifsel Veri Analizi (Exploratory Data Analysis, EDA)
+'''
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(PROJECT_ROOT, 'dataset')
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'plots')
